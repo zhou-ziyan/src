@@ -16,6 +16,7 @@
  * to keep all kernel calls enabled.
  */
 #define USE_FORK       	   1	/* fork a new process */
+#define USE_CHRT		   1	/* process chrt feature */
 #define USE_NEWMAP     	   1	/* set a new memory map */
 #define USE_EXEC       	   1	/* update process after execute */
 #define USE_CLEAR	   1	/* clean up after process exit */

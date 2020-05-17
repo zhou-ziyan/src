@@ -3,6 +3,7 @@
 
 .PATH:	${.CURDIR}/system
 SRCS+= 	\
+	do_chrt.c \
 	do_fork.c \
 	do_exec.c \
 	do_clear.c \
